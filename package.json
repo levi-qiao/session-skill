@@ -1,0 +1,34 @@
+{
+  "name": "session-skill",
+  "version": "0.1.0",
+  "description": "Record a successful agent session (chat + tool traces) \u2192 emit an installable Agent Skill (SKILL.md + references/) for Cursor and Claude Code.",
+  "bin": {
+    "session-skill": "bin/session-skill.js"
+  },
+  "type": "commonjs",
+  "main": "src/convert.js",
+  "scripts": {
+    "demo": "node scripts/run-demo.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "scripts",
+    "fixtures",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "agent-skills",
+    "cursor",
+    "claude-code",
+    "skill",
+    "session",
+    "cli"
+  ],
+  "author": "levi-qiao",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
