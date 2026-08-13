@@ -14,6 +14,11 @@ You already solved a task once with an agent. Replaying that workflow later mean
 
 ## Quick start
 
+![session-skill demo](docs/demo.gif)
+
+*Stylized terminal demo: convert a sample session -> SKILL.md + references tree (offline, no API).*
+
+
 Run the offline demo (see package.json scripts.demo):
 
     npm run demo
