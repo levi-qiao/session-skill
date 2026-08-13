@@ -12,12 +12,11 @@ You already solved a task once with an agent. Replaying that workflow later mean
 
 `session.json` -> `SKILL.md` + `references/` + `INSTALL.md` (heuristic distill, no LLM API, no network).
 
-## Quick start
-
 ![session-skill demo](docs/demo.gif)
 
-*Stylized terminal demo: convert a sample session -> SKILL.md + references tree (offline, no API).*
+*Demo: convert a sample session → installable `SKILL.md` + `references/`.*
 
+## Quick start
 
 Run the offline demo (see package.json scripts.demo):
 
